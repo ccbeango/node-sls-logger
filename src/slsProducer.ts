@@ -1,11 +1,11 @@
 import * as crypto from "crypto";
 import * as https from "https";
-import * as path from "path";
 import * as protobuf from "protobufjs";
 import { Log, LogGroup, SlsOptions } from "./types";
 import lz4 from "./utils/lz4";
+import slsJson from "./sls.json";
 
-const MessageTypes = protobuf.loadSync(path.resolve(__dirname, "../sls.proto"));
+const MessageTypes = protobuf.Root.fromJSON(slsJson);
 const PbLogGroup = MessageTypes.lookupType("sls.LogGroup");
 
 const DEFAULT_BULK_SIZE = 512;

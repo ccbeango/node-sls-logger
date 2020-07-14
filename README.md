@@ -1,5 +1,7 @@
 # Logger for Aliyun SLS
 
+Just change the way of import protobuf file from sls.proto to sls.json, so that it works well with webpack
+
 [![Travis CI Build Status](https://img.shields.io/travis/innopals/node-sls-logger/master.svg)](http://travis-ci.org/innopals/node-sls-logger)
 [![NPM Version](https://img.shields.io/npm/v/sls-logger.svg)](https://npmjs.org/package/sls-logger)
 [![NPM Downloads](https://img.shields.io/npm/dm/sls-logger.svg)](https://npmjs.org/package/sls-logger)
