@@ -1,13 +1,13 @@
 {
-  "name": "sls-logger",
+  "name": "ali-sls-logger",
   "description": "Logger for Aliyun SLS",
   "version": "1.0.9",
-  "author": "innopals",
+  "author": "ccbean",
   "license": "MIT",
-  "homepage": "https://github.com/innopals/node-sls-logger",
+  "homepage": "https://github.com/ccbeango/node-sls-logger",
   "repository": {
     "type": "git",
-    "url": "git@github.com:innopals/node-sls-logger.git"
+    "url": "git@github.com:ccbeango/node-sls-logger.git"
   },
   "keywords": [
     "logger",
